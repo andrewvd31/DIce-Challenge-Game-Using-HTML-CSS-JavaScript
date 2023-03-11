@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Challenge Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dice-game-box">
+        <div class="dice-game-container">
+            <h1>DICE CHALLENGE GAME</h1>
+            <h2 id="message">PLAYER 1 TURN</h2>
+            <div id="score-main-box" class="score-main-box">
+                <div class="score-box-container">
+                    <div class="score-box margin active" id="score-box-1">
+                        <span id="player-1-score">-</span>               
+                    </div>
+                    <h3>Score: <span id="player-1-score-update">0</span></h3>
+                </div>
+                <div class="score-box-container">
+                    <div class="score-box" id="score-box-2">
+                        <span id="player-2-score">-</span>            
+                    </div>
+                    <h3>Score: <span id="player-2-score-update">0</span></h3>
+                </div>   
+            </div>
+            <button id="roll-btn" class="btn">ROLL DICE</button>
+            <button id="restart-btn" class="btn restart-btn">RESTART</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
