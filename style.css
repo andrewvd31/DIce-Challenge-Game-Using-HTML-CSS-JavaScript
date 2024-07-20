@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #080860;
+    background: linear-gradient(#000746,#000075);
     font-family: 'Inconsolata', monospace;
 }
 
